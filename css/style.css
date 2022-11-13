@@ -21,34 +21,35 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0px;
+  margin: 0px;
 }
 ul {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
-a {text-decoration: none;
+a {
+  text-decoration: none;
 }
-img { 
-    display: block;
+img {
+  display: block;
 }
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container {
   max-width: 1200px;
   width: 100%;
@@ -63,11 +64,11 @@ img {
   align-items: center;
 }
 .container-nav {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 .list.nav,
 .list-сontact.nav {
@@ -75,8 +76,8 @@ align-items: center;
 }
 .list.nav {
   display: flex;
-align-items: center;
-gap: 50px;
+  align-items: center;
+  gap: 50px;
 }
 .list-сontact.nav {
   display: flex;
@@ -115,7 +116,7 @@ gap: 50px;
   color: var(--color-accent);
 }
 .link-navigation:hover .mail-icon {
-fill: var(--color-accent);
+  fill: var(--color-accent);
 }
 
 /* logo*/
@@ -129,8 +130,8 @@ fill: var(--color-accent);
 }
 .header-logo {
   margin-right: 93px;
-} 
-.logo-footer{
+}
+.logo-footer {
   display: block;
   margin-bottom: 20px;
 }
@@ -142,7 +143,11 @@ fill: var(--color-accent);
 }
 .slogan {
   background-color: var(--dark-bacground-color);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/bg-hero.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-hero.jpg);
   color: var(--minor-text-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -168,7 +173,7 @@ fill: var(--color-accent);
 .section.work {
   padding-top: 0;
 }
-.container-work{
+.container-work {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -182,23 +187,22 @@ fill: var(--color-accent);
 .container-team {
   display: flex;
   align-items: center;
-gap: 30px;
+  gap: 30px;
 }
 .team-member {
   width: 270px;
-  background-color: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .name-member {
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
 .name-team {
   margin-bottom: 10px;
 }
-.action{ 
-  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+.action {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .member-soc-list {
   display: flex;
@@ -216,11 +220,11 @@ gap: 30px;
 }
 .member-soc-item:hover,
 .member-soc-item:focus {
- background-color: var(--color-accent);
- box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .member-soc-item:hover .permanent-clients-icon {
-  fill: #FFFFFF
+  fill: #ffffff;
 }
 .member-soc-link {
   width: 100%;
@@ -232,12 +236,12 @@ gap: 30px;
   justify-content: center;
 }
 .permanent-clients-icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .permanent-clients-title {
- margin: 0 auto 50px;
- display: flex;
- justify-content: center;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: center;
 }
 .permanent-clients-section {
   display: flex;
@@ -245,7 +249,7 @@ gap: 30px;
 }
 .permanent-clients-list {
   display: flex;
-  gap:30px;
+  gap: 30px;
 }
 .list {
 }
@@ -253,19 +257,19 @@ gap: 30px;
   display: flex;
   width: 170px;
   height: 92px;
- padding: 16px 32px;
- border: 1px solid #AFB1B8;
- border-radius: 4%;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4%;
 }
 .permanent-clients-item:hover,
 .permanent-clients-item:focus {
-  border:1px solid #2196F3 ;
+  border: 1px solid #2196f3;
 }
 .permanent-clients-link {
   width: 100%;
   height: 100%;
-  background-color: #2196F3;
-  
+  background-color: #2196f3;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,7 +280,7 @@ gap: 30px;
 }
 .permanent-clients-link:hover .permanent-clients-icon,
 .permanent-clients-link:hover .permanent-clients-icon {
-  fill:#2196F3;
+  fill: #2196f3;
 }
 /* --------------portfolio-------------- */
 .container-button {
@@ -293,13 +297,14 @@ gap: 30px;
   gap: 30px;
 }
 .gallery-one {
-border: 1px solid #EEEEEE;
-border-top: none;
-padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px 24px;
 }
 .gallery-one:hover,
 .gallery-one:focus {
-  box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .button.primary {
   background-color: var(--color-accent);
@@ -381,7 +386,7 @@ padding: 20px 24px;
 }
 .heading {
   text-transform: uppercase;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .section.team {
   text-align: center;
@@ -412,7 +417,7 @@ padding: 20px 24px;
 }
 .communication {
   font-style: normal;
-  }
+}
 .link-navigation.lover {
   padding: 0;
   line-height: 1.71;
@@ -425,28 +430,26 @@ padding: 20px 24px;
   margin-bottom: 9px;
   line-height: 1.71;
 }
-.container-brand  {
+.container-brand {
   margin-bottom: 20px;
- display: flex;
- align-items: baseline;
- gap:70px;
- 
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
 }
 
 .cellar-soc-list {
   display: flex;
   align-items: center;
   margin: 20px 0;
-  gap:10px;
+  gap: 10px;
 }
- .cellar-right-title {
+.cellar-right-title {
   font-size: 14px;
-  text-transform: uppercase ;
+  text-transform: uppercase;
   line-height: calc(16 / 14);
-  
- }
+}
 .social-icon {
-fill: #FFFFFF;
+  fill: #ffffff;
 }
 .cellar-soc-link {
   display: flex;
@@ -465,7 +468,7 @@ fill: #FFFFFF;
 }
 .cellar-soc-item:hover,
 .cellar-soc-item:focus {
- background-color: var(--color-accent);
+  background-color: var(--color-accent);
 }
 .rew {
   display: flex;
@@ -474,5 +477,5 @@ fill: #FFFFFF;
   margin-bottom: 30px;
   height: 120px;
   border-radius: 4px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
