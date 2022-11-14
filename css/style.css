@@ -336,14 +336,14 @@ img {
 .gallery-one {
   border-top: none;
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .gallery-item {
   display: flex;
   width: 370px;
 }
 .gallery-link {
-  border: 1px solid #eeeeee;
-  border-top: none; 
+ 
 }
 .gallery-link:hover,
 .gallery-link:focus {
